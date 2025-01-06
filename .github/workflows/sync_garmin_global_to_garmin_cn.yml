@@ -38,3 +38,6 @@ jobs:
       - uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: Save Garmin Session
+      - name: Attest Build Provenance
+        uses: actions/attest-build-provenance@v2.1.0
+            
